@@ -1,0 +1,28 @@
+/* cascading */
+/* origin: inline important > important > inline > internal > external >user agent */
+/* specificity */
+/* source order */
+
+
+h1.header{
+    font-size: 60px;
+    color: blue;
+}
+
+
+#heading{
+    font-size: 100px;
+    color: green;
+}
+
+h2.test{
+    color: black !important;
+    text-align: center;
+    font-size: medium;
+}
+
+h2#again-test{
+    color: rgb(104, 43, 226);
+    text-align: left;
+    font-size: x-large;
+}
